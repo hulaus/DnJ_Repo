@@ -1,25 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../NavbarComp/Navbar.css'
 import AboutUs from "../AboutUs/AboutUs"
 import CustomPieces from "../CustomPieces/customPieces"
 import ContactUs from "../ContactUs/contactUs"
+import Home from "../Home/Home";
 
 function Navbar() {
     return (
         <nav className="navigation">
             <ul>
                 <li>
-                    <a href="../ContactUs/contactUs">Contact Us</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="../AboutUs/AboutUs">About Us</a>
+                    <Link to="/ContactUs">Contact Us</Link>
                 </li>
                 <li>
-                    <a href="../CustomPieces/customPieces">Custom Pieces</a>
+                    <Link to="/AboutUs">About Us</Link>
+                </li>
+                <li>
+                    <Link to="/CustomPieces">Custom Pieces</Link>
                 </li>
             </ul>
         </nav>
-    );
+    )
+
 }
 
 export default Navbar;
