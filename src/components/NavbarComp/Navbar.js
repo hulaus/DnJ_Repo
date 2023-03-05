@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../NavbarComp/Navbar.css'
-import AboutUs from "../AboutUs/AboutUs"
-import CustomPieces from "../CustomPieces/customPieces"
-import ContactUs from "../ContactUs/contactUs"
-import Home from "../Home/Home";
 
 function Navbar() {
     return (
