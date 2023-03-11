@@ -23,16 +23,16 @@ function ScrollspyNavbar() {
 
   return (
     <Nav className='scrollspy-navbar' defaultActiveKey="/Home">
-      <Nav.Link as={Link} to="/" spy={true} smooth={true} offset={-70} duration={500}>
+      <Nav.Link as={Link} to="/" spy="true" smooth="true" offset={-70} duration={500}>
         Home
       </Nav.Link>    
-      <Nav.Link as={Link} to="ContactUs" spy={true} smooth={true} offset={-70} duration={500}>
+      <Nav.Link as={Link} to="ContactUs" spy="true" smooth="true" offset={-70} duration={500}>
         Contact Us
       </Nav.Link>
-      <Nav.Link as={Link} to="AboutUs" spy={true} smooth={true} offset={-70} duration={500}>
+      <Nav.Link as={Link} to="AboutUs" spy="true" smooth="true" offset={-70} duration={500}>
         About Us
       </Nav.Link>
-      <Nav.Link as={Link} to="CustomPieces" spy={true} smooth={true} offset={-70} duration={500}>
+      <Nav.Link as={Link} to="CustomPieces" spy="true" smooth="true" offset={-70} duration={500}>
         Custom Pieces
       </Nav.Link>
     </Nav>
